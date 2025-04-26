@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        } */
+
+        header h1 {
+            color: #333;
+        }
+
+        header p {
+            color: #000000;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #000000;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #000000;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="stylesheet" href="../view.css">
+    <title>Title</title>
+</head>
+
+<body>
+    
+    <nav class="bg-white shadow-lg p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo and Text -->
+            <div class="flex items-center text-gray-800 text-xl font-bold">
+                <img src="../bts_trans.png" alt="Logo" class="h-20 w-20 mr-2">
+                <a href="#">Brace Tech Solutions</a>
+            </div>
+            <!-- Hamburger Menu for Mobile -->
+            <div class="block lg:hidden">
+                <button onclick="toggleMenu()" class="text-gray-800 hover:text-gray-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Navigation Links for Desktop -->
+            <div class="hidden lg:flex space-x-4">
+                <a href="../index.html" class="text-gray-800 hover:text-gray-600">Home</a>
+                <!-- <a href="#aboutus" class="text-gray-800 hover:text-gray-600">About</a>
+                <a href="#services" class="text-gray-800 hover:text-gray-600">Services</a>
+                <a href="#expertise" class="text-gray-800 hover:text-gray-600">Experties</a>
+                <a href="#contact" class="text-gray-800 hover:text-gray-600">Contact</a> -->
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="lg:hidden menu-transition">
+            <div class="space-y-2 px-2 pt-2 pb-3 sm:px-3">
+                <a href="../index.html" class="block text-gray-800 hover:text-gray-600">Home</a>
+                <!-- <a href="#aboutus" class="text-gray-800 hover:text-gray-600">About</a>
+                <a href="#services" class="text-gray-800 hover:text-gray-600">Services</a>
+                <a href="#expertise" class="text-gray-800 hover:text-gray-600">Experties</a>
+                <a href="#contact" class="text-gray-800 hover:text-gray-600">Contact</a> -->
+            </div>
+        </div>
+    </nav>
+    <div style="width: 80%;margin: 0 auto;" >
+        <h2>Terms and Conditions</h2>
+        <p>Last updated: June 06, 2024</p>
+        <p>Please read these terms and conditions carefully before using Our Service.</p>
+        <h2>Interpretation and Definitions</h2>
+        <h3>Interpretation</h3>
+        <p>The words of which the initial letter is capitalized have meanings defined under the following conditions.
+            The
+            following definitions shall have the same meaning regardless of whether they appear in singular or in
+            plural.</p>
+        <h3>Definitions</h3>
+        <p>For the purposes of these Terms and Conditions:</p>
+        <ul>
+            <li>
+                <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control
+                    with a
+                    party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or
+                    other
+                    securities entitled to vote for election of directors or other managing authority.</p>
+            </li>
+            <li>
+                <p><strong>Country</strong> refers to: Andhra Pradesh, India</p>
+            </li>
+            <li>
+                <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;,
+                    &quot;Us&quot; or
+                    &quot;Our&quot; in this Agreement) refers to BRACE TECH SOLUTIONS, 9-42 Netaji Nagar Nandigama NTR
+                    District
+                    Nandigama Andhra Pradesh - 521185.</p>
+            </li>
+            <li>
+                <p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone
+                    or a
+                    digital tablet.</p>
+            </li>
+            <li>
+                <p><strong>Service</strong> refers to the Website.</p>
+            </li>
+            <li>
+                <p><strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and
+                    Conditions
+                    that form the entire agreement between You and the Company regarding the use of the Service. </a>.
+                </p>
+            </li>
+            <li>
+                <p><strong>Third-party Social Media Service</strong> means any services or content (including data,
+                    information,
+                    products or services) provided by a third-party that may be displayed, included or made available by
+                    the
+                    Service.</p>
+            </li>
+            <li>
+                <p><strong>Website</strong> refers to Brace Tech Solutions, accessible from <a
+                        href="https://bracetechsolutions.com" rel="external nofollow noopener"
+                        target="_blank">https://bracetechsolutions.com</a></p>
+            </li>
+            <li>
+                <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other
+                    legal
+                    entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
+            </li>
+        </ul>
+        <h2>Acknowledgment</h2>
+        <p>These are the Terms and Conditions governing the use of this Service and the agreement that operates between
+            You and
+            the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of
+            the
+            Service.</p>
+        <p>Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms
+            and
+            Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the
+            Service.</p>
+        <p>By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with
+            any part
+            of these Terms and Conditions then You may not access the Service.</p>
+        <p>You represent that you are over the age of 18. The Company does not permit those under 18 to use the Service.
+        </p>
+        <p>Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the
+            Privacy
+            Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and
+            disclosure of Your personal information when You use the Application or the Website and tells You about Your
+            privacy
+            rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.</p>
+        <h2>Links to Other Websites</h2>
+        <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by the
+            Company.
+        </p>
+        <p>The Company has no control over, and assumes no responsibility for, the content, privacy policies, or
+            practices of
+            any third party web sites or services. You further acknowledge and agree that the Company shall not be
+            responsible
+            or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection
+            with
+            the use of or reliance on any such content, goods or services available on or through any such web sites or
+            services.</p>
+        <p>We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or
+            services
+            that You visit.</p>
+        <h2>Termination</h2>
+        <p>We may terminate or suspend Your access immediately, without prior notice or liability, for any reason
+            whatsoever,
+            including without limitation if You breach these Terms and Conditions.</p>
+        <p>Upon termination, Your right to use the Service will cease immediately.</p>
+        <h2>Limitation of Liability</h2>
+        <p>Notwithstanding any damages that You might incur, the entire liability of the Company and any of its
+            suppliers under
+            any provision of this Terms and Your exclusive remedy for all of the foregoing shall be limited to the
+            amount
+            actually paid by You through the Service or 100 USD if You haven't purchased anything through the Service.
+        </p>
+        <p>To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable
+            for any
+            special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages
+            for loss
+            of profits, loss of data or other information, for business interruption, for personal injury, loss of
+            privacy
+            arising out of or in any way related to the use of or inability to use the Service, third-party software
+            and/or
+            third-party hardware used with the Service, or otherwise in connection with any provision of this Terms),
+            even if
+            the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails
+            of its
+            essential purpose.</p>
+        <p>Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or
+            consequential damages, which means that some of the above limitations may not apply. In these states, each
+            party's
+            liability will be limited to the greatest extent permitted by law.</p>
+        <h2>&quot;AS IS&quot; and &quot;AS AVAILABLE&quot; Disclaimer</h2>
+        <p>The Service is provided to You &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; and with all faults and defects
+            without
+            warranty of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf
+            and on
+            behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims
+            all
+            warranties, whether express, implied, statutory or otherwise, with respect to the Service, including all
+            implied
+            warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties
+            that may
+            arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the
+            foregoing,
+            the Company provides no warranty or undertaking, and makes no representation of any kind that the Service
+            will meet
+            Your requirements, achieve any intended results, be compatible or work with any other software,
+            applications,
+            systems or services, operate without interruption, meet any performance or reliability standards or be error
+            free or
+            that any errors or defects can or will be corrected.</p>
+        <p>Without limiting the foregoing, neither the Company nor any of the company's provider makes any
+            representation or
+            warranty of any kind, express or implied: (i) as to the operation or availability of the Service, or the
+            information, content, and materials or products included thereon; (ii) that the Service will be
+            uninterrupted or
+            error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided
+            through the
+            Service; or (iv) that the Service, its servers, the content, or e-mails sent from or on behalf of the
+            Company are
+            free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.</p>
+        <p>Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable
+            statutory
+            rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in
+            such a
+            case the exclusions and limitations set forth in this section shall be applied to the greatest extent
+            enforceable
+            under applicable law.</p>
+        <h2>Governing Law</h2>
+        <p>The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the
+            Service.
+            Your use of the Application may also be subject to other local, state, national, or international laws.</p>
+        <h2>Disputes Resolution</h2>
+        <p>If You have any concern or dispute about the Service, You agree to first try to resolve the dispute
+            informally by
+            contacting the Company.</p>
+        <h2>For European Union (EU) Users</h2>
+        <p>If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the
+            country in
+            which You are resident.</p>
+        <h2>United States Legal Compliance</h2>
+        <p>You represent and warrant that (i) You are not located in a country that is subject to the United States
+            government
+            embargo, or that has been designated by the United States government as a &quot;terrorist supporting&quot;
+            country,
+            and (ii) You are not listed on any United States government list of prohibited or restricted parties.</p>
+        <h2>Severability and Waiver</h2>
+        <h3>Severability</h3>
+        <p>If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and
+            interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable
+            law and
+            the remaining provisions will continue in full force and effect.</p>
+        <h3>Waiver</h3>
+        <p>Except as provided herein, the failure to exercise a right or to require performance of an obligation under
+            these
+            Terms shall not affect a party's ability to exercise such right or require such performance at any time
+            thereafter
+            nor shall the waiver of a breach constitute a waiver of any subsequent breach.</p>
+        <h2>Translation Interpretation</h2>
+        <p>These Terms and Conditions may have been translated if We have made them available to You on our Service.
+            You agree that the original English text shall prevail in the case of a dispute.</p>
+        <h2>Changes to These Terms and Conditions</h2>
+        <p>We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is
+            material
+            We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect.
+            What
+            constitutes a material change will be determined at Our sole discretion.</p>
+        <p>By continuing to access or use Our Service after those revisions become effective, You agree to be bound by
+            the
+            revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and
+            the
+            Service.</p>
+        <h2>Contact Us</h2>
+        <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
+        <ul>
+            <li>By visiting this page on our website: <a href="https://bracetechsolutions.com"
+                    rel="external nofollow noopener" target="_blank">https://bracetechsolutions.com</a></li>
+        </ul>
+    </div>
+    <footer class="bg-gray-700 dark:bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="https://flowbite.com/" class="flex items-center">
+                        <img src="../bts_trans.png" class="h-20 me-4" alt="FlowBite Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Brace Tech
+                            Solutions</span>
+                    </a>
+                    <strong>Office Address :</strong>
+                    <p>6-1-247 KHAIRATHABAD ROAD NO 5 HYDERABAD 500004</p>
+                    <strong>Phone no :</strong>
+                    <p>+91 944-077-9908</p>
+                    <strong>Email Address :</strong>
+                    <p>support[dot]desk[at]mycodemyrules[dot]co[dot]in</p>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="https://mycodemyrules.co.in/" class="hover:underline">MyCodeMyRules</a>
+                            </li>
+                            <!-- <li>
+                                <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline ">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Linkedln</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" id="termsLink" class="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a
+                        href="https://flowbite.com/" class="hover:underline">Brace Tech Solutions™</a>. All Rights
+                    Reserved.
+                </span>
+                <!-- <div class="flex mt-4 sm:justify-center sm:mt-0">
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 8 19">
+                            <path fill-rule="evenodd"
+                                d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="sr-only">Facebook page</span>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 21 16">
+                            <path
+                                d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" />
+                        </svg>
+                        <span class="sr-only">Discord community</span>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 20 17">
+                            <path fill-rule="evenodd"
+                                d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="sr-only">Twitter page</span>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="sr-only">GitHub account</span>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <span class="sr-only">Dribbble account</span>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
